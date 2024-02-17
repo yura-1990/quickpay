@@ -1,0 +1,18 @@
+users
+ - id
+ - name
+ - email
+ - password
+
+user_settings
+ - id
+ - user_id
+ - setting_key
+ - setting_value
+
+verification_codes
+ - id
+ - user_id
+ - provider
+ - code
+ - status
